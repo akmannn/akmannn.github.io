@@ -1,24 +1,40 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
+  margin: 0;
   background: #f4f6f8;
-  color: #222;
+  color: #333;
 }
 
-header, section, footer {
+header {
+  background: #0b3c5d;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background: #1c1c1c;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px;
   background: white;
-  padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   border-radius: 6px;
 }
 
-h1, h2 {
-  color: #1f2937;
-}
-
-a {
-  color: #2563eb;
-  text-decoration: none;
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1c1c1c;
+  color: white;
 }
